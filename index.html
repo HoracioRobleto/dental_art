@@ -9,29 +9,29 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav>
+    <header style="background: var(--primary-blue); color: white;">
+        <nav style="background: transparent; color: inherit;">
             <div class="logo">
-                <i class="fas fa-tooth"></i>
-                <div class="logo-text">
+                <img src="assets/logo.jpeg" alt="Logo Art Dental" style="height: 60px;">
+                <!-- <div class="logo-text">
                     <h1>ART DENTAL</h1>
                     <p>Sonreír es arte, cuidarla, nuestra pasión</p>
-                </div>
+                </div> -->
             </div>
             <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#promociones">Promociones</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio" style="color: white;">Inicio</a></li>
+                <li><a href="#nosotros" style="color: white;">Nosotros</a></li>
+                <li><a href="#servicios" style="color: white;">Servicios</a></li>
+                <li><a href="#promociones" style="color: white;">Promociones</a></li>
+                <li><a href="#contacto" style="color: white;">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="inicio">
-        <h2>Bienvenidos a Art Dental</h2>
-        <p>Sonreír es arte, cuidarla, nuestra pasión</p>
+    <section class="hero" id="inicio" style="background: url('assets/clinica.jpeg') center center/cover no-repeat; color: white; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <h2 style="background: rgba(0,0,0,0.4); padding: 0.5em 1em; border-radius: 8px;">Bienvenidos a Art Dental</h2>
+        <p style="background: rgba(0,0,0,0.3); padding: 0.5em 1em; border-radius: 8px;">Sonreír es arte, cuidarla, nuestra pasión</p>
         <button class="cta-button" onclick="window.open('https://wa.me/50545676030', '_blank')">
             <i class="fab fa-whatsapp"></i> Agenda tu Cita Ahora
         </button>
@@ -136,92 +136,85 @@
         <div class="services-grid">
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-tooth"></i>
+                    <img src="icons/root-canal.svg" alt="Root Canal" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Endodoncia</h3>
                     <p>Tratamiento para salvar un diente cuando la pulpa está inflamada o infectada, evitando la extracción.</p>
                     <div class="service-price">C$2,900 - C$11,000</div>
                     <p><strong>Duración:</strong> 1-2 horas por pieza</p>
-                    <p><strong>Promoción:</strong> 10% descuento en piezas múltiples</p>
                 </div>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-smile"></i>
+                    <img src="icons/orthodontic.svg" alt="Ortodoncia" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Ortodoncia</h3>
                     <p>Corrección de dientes torcidos o desalineados usando brackets o alineadores para una sonrisa perfecta.</p>
                     <div class="service-price">Inicial: C$7,300 + Mensualidades: C$1,100-2,200</div>
                     <p><strong>Duración:</strong> 1-2 años</p>
-                    <p><strong>Promoción:</strong> Evaluación inicial gratuita</p>
                 </div>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-procedures"></i>
+                    <img src="icons/implant.svg" alt="Dental Implant" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Implantes Dentales</h3>
                     <p>Tornillos de titanio que reemplazan dientes perdidos con aspecto y función naturales.</p>
                     <div class="service-price">C$22,000 - C$44,000</div>
                     <p><strong>Duración:</strong> 2-3 meses según osificación</p>
-                    <p><strong>Promoción:</strong> Consulta diagnóstica gratuita</p>
                 </div>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-tools"></i>
+                   <img src="icons/dental-surgery.svg" alt="Dental Fillings" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Operatoria Dental</h3>
                     <p>Reparación de dientes dañados por caries o fracturas con materiales de alta calidad.</p>
                     <div class="service-price">C$900 - C$1,000</div>
                     <p><strong>Duración:</strong> 30 minutos - 1 hora</p>
-                    <p><strong>Promoción:</strong> 10% descuento en restauraciones múltiples</p>
                 </div>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-crown"></i>
+                    <img src="icons/dental-prosthesis.svg" alt="Dental Prosthesis" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Prótesis Dental</h3>
                     <p>Coronas, puentes y carillas cerámicas con aspecto natural y alta resistencia.</p>
                     <div class="service-price">C$9,100 - C$22,000</div>
                     <p><strong>Duración:</strong> 1-4 sesiones</p>
-                    <p><strong>Promoción:</strong> 15% descuento en paquete de carillas</p>
                 </div>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-teeth-open"></i>
+                    <img src="icons/extraction.svg" alt="Dental Surgery" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Extracción de Terceros Molares</h3>
                     <p>Cirugía para remover muelas del juicio que causan dolor o problemas de espacio.</p>
                     <div class="service-price">C$2,900 - C$7,300</div>
                     <p><strong>Duración:</strong> 1-2 horas</p>
-                    <p><strong>Promoción:</strong> Evaluación radiográfica gratuita</p>
                 </div>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">
-                    <i class="fas fa-tooth"></i>
+                    <img src="icons/dental-cleaning.svg" alt="Profilaxis Dental" width="80" height="80">
                 </div>
                 <div class="service-content">
                     <h3>Profilaxis Dental</h3>
                     <p>Limpieza profesional para eliminar placa, sarro y manchas, previniendo caries y enfermedades.</p>
                     <div class="service-price">C$1,100 - C$2,900</div>
                     <p><strong>Duración:</strong> 30-45 minutos</p>
-                    <p><strong>Promoción:</strong> 2x1 durante octubre</p>
                 </div>
             </div>
         </div>
@@ -234,6 +227,7 @@
         <div class="promotions-grid">
             <div class="promo-card">
                 <span class="promo-badge">20% OFF</span>
+                &nbsp;
                 <h3>Paquete Familiar de Profilaxis</h3>
                 <p>Incluye limpieza profesional, revisión general y asesoría preventiva para 4 miembros de la familia.</p>
                 <p style="margin-top: 1rem;"><strong>Válido:</strong> Durante octubre</p>
@@ -241,6 +235,7 @@
 
             <div class="promo-card">
                 <span class="promo-badge">GRATIS</span>
+                &nbsp;
                 <h3>Plan Estético Sonrisa Perfecta</h3>
                 <p>Incluye operatoria dental estética, profilaxis y evaluación para blanqueamiento con consulta gratuita de diagnóstico inicial.</p>
                 <p style="margin-top: 1rem;"><strong>Válido:</strong> Hasta el 30 de noviembre</p>
@@ -248,6 +243,7 @@
 
             <div class="promo-card">
                 <span class="promo-badge">10% OFF</span>
+                &nbsp;
                 <h3>Endodoncia sin Dolor</h3>
                 <p>Tratamientos de conducto con tecnología moderna y anestesia avanzada. 10% de descuento en tratamientos completos.</p>
                 <p style="margin-top: 1rem;"><strong>Válido:</strong> Vigente ahora</p>
@@ -255,6 +251,7 @@
 
             <div class="promo-card">
                 <span class="promo-badge">EVALUACIÓN GRATIS</span>
+                &nbsp;
                 <h3>Ortodoncia Accesible</h3>
                 <p>Planes mensuales flexibles para brackets metálicos o estéticos. Incluye evaluación inicial y radiografía panorámica gratuita.</p>
                 <p style="margin-top: 1rem;"><strong>Válido:</strong> Octubre-Diciembre 2025</p>
@@ -262,6 +259,7 @@
 
             <div class="promo-card">
                 <span class="promo-badge">15% OFF</span>
+                &nbsp;
                 <h3>Implantes y Prótesis Cerámicas</h3>
                 <p>Paquete de rehabilitación oral integral. 15% de descuento en prótesis cerámicas al realizar implante en nuestra clínica.</p>
                 <p style="margin-top: 1rem;"><strong>Válido:</strong> Hasta el 31 de diciembre 2025</p>
@@ -269,6 +267,7 @@
 
             <div class="promo-card">
                 <span class="promo-badge">VALORACIÓN GRATIS</span>
+                &nbsp;
                 <h3>Extracción Segura</h3>
                 <p>Procedimiento quirúrgico de terceros molares con valoración previa gratuita y descuento especial en extracciones múltiples.</p>
                 <p style="margin-top: 1rem;"><strong>Válido:</strong> Octubre y noviembre</p>
@@ -281,22 +280,20 @@
         <h2 class="section-title">Galería - Antes y Después</h2>
         <div class="gallery-grid">
             <div class="gallery-item">
-                <i class="fas fa-image"></i>
+                <img src="assets/clinica_antes.jpg" alt="Antes" style="width: 100%; border-radius: 8px;">
                 <p class="gallery-label">ANTES</p>
-                <p>Casos de transformación dental</p>
             </div>
             <div class="gallery-item">
-                <i class="fas fa-images"></i>
+                <img src="assets/clinica_entrada.jpg" alt="Después" style="width: 100%; border-radius: 8px;">
                 <p class="gallery-label">DESPUÉS</p>
-                <p>Resultados de nuestros tratamientos</p>
             </div>
             <div class="gallery-item">
-                <i class="fas fa-hospital"></i>
+                <img src="assets/clinica_despues.jpg" alt="Instalaciones" style="width: 100%; border-radius: 8px;">
                 <p class="gallery-label">INSTALACIONES</p>
                 <p>Nuestro moderno consultorio</p>
             </div>
             <div class="gallery-item">
-                <i class="fas fa-users"></i>
+                <img src="assets/sonrisa.jpg" alt="Pacientes Felices" style="width: 100%; border-radius: 8px;">
                 <p class="gallery-label">PACIENTES FELICES</p>
                 <p>Sonrisas satisfechas</p>
             </div>
@@ -424,7 +421,7 @@
                 <p><i class="fas fa-phone"></i> Teléfono: 4567-6030</p>
                 <p><i class="fab fa-whatsapp"></i> WhatsApp: 4567-6030</p>
                 <p><i class="fas fa-envelope"></i> clínica.dentalart2611@gmail.com</p>
-                <p><i class="fas fa-globe"></i> artdental.com.ni</p>
+                <p><i class="fas fa-globe"></i> artdental.app</p>
             </div>
 
             <div class="footer-section">
@@ -436,9 +433,6 @@
                     </a>
                     <a href="https://www.instagram.com/artdentalni" target="_blank" title="Instagram">
                         <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" target="_blank" title="TikTok">
-                        <i class="fab fa-tiktok"></i>
                     </a>
                 </div>
             </div>
